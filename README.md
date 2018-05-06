@@ -2,6 +2,17 @@
 人脸合成加68点计算
 ## 效果展示
 ![error](https://github.com/xjkj123/FaceAverage/blob/master/doc/show.png)
+## 引用库
+```python
+import os
+import cv2
+import numpy as np
+import math
+import sys
+import dlib
+import tqdm
+````
+
 ## 为何做此项目
   偶然间发现了学校教务系统的API有漏洞,手头多出上千张一寸照不知如何处理,遂想到如此项目
   
