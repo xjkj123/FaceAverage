@@ -12,7 +12,13 @@ import sys
 import dlib
 import tqdm
 ````
-
+## 有何优势
+  无需face++ api联网计算特征点,特征合成合二为一使用简单
+  
+## 有何劣势
+  墙内不好下载shape_predictor_68_face_landmarks.dat训练文件
+  dlib库文件不好安装(大坑)
+  
 ## 为何做此项目
   偶然间发现了学校教务系统的API有漏洞,手头多出上千张一寸照不知如何处理,遂想到如此项目
   
