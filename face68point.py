@@ -22,11 +22,3 @@ def point68(path):
                 else:
                     print('没有检测到脸删除此照片')
                     os.remove(path + u)
-
-
-
-
-
-
-
-
