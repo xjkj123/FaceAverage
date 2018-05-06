@@ -13,17 +13,18 @@ import dlib
 import tqdm
 ````
 ## 有何优势
-  无需face++ api联网计算特征点,特征合成合二为一使用简单
+  1.无需face++ api联网计算特征点,特征合成合二为一使用简单
   
 ## 有何劣势
-  墙内不好下载shape_predictor_68_face_landmarks.dat训练文件
-  dlib库文件不好安装(大坑)
+  1.墙内不好下载shape_predictor_68_face_landmarks.dat训练文件
+  
+  2.dlib库文件不好安装(大坑)
   
 ## 为何做此项目
-  偶然间发现了学校教务系统的API有漏洞,手头多出上千张一寸照不知如何处理,遂想到如此项目
+  1.偶然间发现了学校教务系统的API有漏洞,手头多出上千张一寸照不知如何处理,遂想到我还可以这样玩!
   
 ##
-  核心代码来自average-face-opencv-c-python-tutorial，在人脸特征68点识别上调用的dlib的方法，以及需要训练好的shape_predictor_68_face_landmarks.dat,训练文件未在代码内贴出,使用时请网络下载此文件放进源码根目录即可
+  核心代码来自average-face-opencv-c-python-tutorial，在人脸特征68点识别上调用的dlib的方法，以及需要训练好的shape_predictor_68_face_landmarks.dat,训练文件未在代码内贴出,使用时请网络下载此文件放进源码根目录即可(大约100MB)
   
 # 文件说明
   face68point.py 计算脸部68个特征点
